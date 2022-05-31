@@ -27,4 +27,8 @@ public class DataWriter {
             throw new RuntimeException(e);
         }
     }
+
+    public String getFilepath() {
+        return this.filepath;
+    }
 }

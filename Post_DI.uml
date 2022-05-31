@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.iocdi.demo.Instructor</OriginalElement>
+  <nodes>
+    <node x="246.07621808873512" y="226.5696809259813">com.iocdi.demo.Instructor</node>
+    <node x="-98.6166979781029" y="226.5696809259813">com.iocdi.demo.Student</node>
+    <node x="97.60952164463419" y="-15.533794008914583">com.iocdi.demo.DataWriter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.iocdi.demo.Instructor" target="com.iocdi.demo.DataWriter" relationship="TO_ONE">
+      <point x="7.293858210962316" y="-44.380531278899696" />
+      <point x="359.02093505859375" y="228.0224829804149" />
+      <point x="359.02093505859375" y="49.40336100260417" />
+      <point x="80.90771061448044" y="3.9371550115187546" />
+    </edge>
+    <edge source="com.iocdi.demo.Student" target="com.iocdi.demo.DataWriter" relationship="TO_ONE">
+      <point x="-0.0" y="-52.33333333333337" />
+      <point x="20.883302021897094" y="45.46620599108542" />
+      <point x="-76.5" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="173.0" y="158.0" />
+  <SelectedNodes>
+    <node>com.iocdi.demo.Student</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

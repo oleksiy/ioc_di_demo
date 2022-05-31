@@ -19,7 +19,9 @@ public class IocDiDemoApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        Student s = new Student();
+        DataWriter dataWriter = new DataWriter();
+        Student s = new Student(dataWriter);
+        Instructor i = new Instructor(dataWriter);
 
     }
 }

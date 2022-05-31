@@ -8,9 +8,13 @@ public class Instructor {
     private final String firstName;
     private final String lastName;
 
-    public Instructor() {
-        this.dataWriter = new DataWriter();
+    public Instructor(DataWriter dataWriter) {
+        this.dataWriter = dataWriter;
         this.firstName = "John";
         this.lastName = "Doe";
+    }
+
+    public String getDataWriterPath() {
+        return this.dataWriter.getFilepath();
     }
 }

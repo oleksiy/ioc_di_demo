@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.iocdi.demo.Student</OriginalElement>
+  <nodes>
+    <node x="-116.0" y="-230.5">com.iocdi.demo.Instructor</node>
+    <node x="-884.0" y="-223.5">com.iocdi.demo.Student</node>
+    <node x="-501.5" y="-248.5">com.iocdi.demo.DataWriter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.iocdi.demo.Instructor" target="com.iocdi.demo.DataWriter" relationship="CREATE">
+      <point x="17.817679558011044" y="-77.00000000000001" />
+      <point x="9.317679558011044" y="-148.5" />
+      <point x="-80.99999999999999" y="0.0" />
+    </edge>
+    <edge source="com.iocdi.demo.Student" target="com.iocdi.demo.DataWriter" relationship="CREATE">
+      <point x="-17.237569060773478" y="-69.5" />
+      <point x="-797.2375690607735" y="-148.5" />
+      <point x="-80.99999999999999" y="0.0" />
+    </edge>
+    <edge source="com.iocdi.demo.Instructor" target="com.iocdi.demo.DataWriter" relationship="TO_ONE">
+      <point x="0.0" y="-77.00000000000001" />
+      <point x="-8.5" y="-18.5" />
+      <point x="-420.5" y="-18.5" />
+      <point x="0.0" y="99.99999999999993" />
+    </edge>
+    <edge source="com.iocdi.demo.Student" target="com.iocdi.demo.DataWriter" relationship="TO_ONE">
+      <point x="0.0" y="-69.5" />
+      <point x="-780.0" y="-18.5" />
+      <point x="-420.5" y="-18.5" />
+      <point x="0.0" y="99.99999999999993" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0661521765344266" showDependencies="true" x="-675.4790901021167" y="-208.8482997147363" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -9,8 +9,12 @@ public class Student {
     private String finalGrade;
 
 
-    public Student() {
-        this.dataWriter = new DataWriter();
+    public Student(DataWriter dataWriter) {
+        this.dataWriter = dataWriter;
         finalGrade = "n/a";
+    }
+
+    public String getDataWriterPath() {
+        return this.dataWriter.getFilepath();
     }
 }
